@@ -2,3 +2,22 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --font-family: 'IBM Plex Mono', sans-serif;
+  --font-size-base: 18px;
+  --line-height-base: 130%;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --padding-small: 10px;
+  --padding-medium: 20px;
+  --padding-large: 30px;
+  --gap-large: 36px;
+  --gap-small: 10px;
+
+  /* Стили для темной схемы */
+  --color-bg: #000028;
+  --color-text: #f1b2ce;
+  --color-bg-secondary: #FF0070;
+  --color-border-hover:#FF007040;
+}
+
