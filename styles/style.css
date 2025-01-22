@@ -97,10 +97,6 @@ a:focus-visible {
   gap: var(--gap-small);
 }
 
-.header__theme-menu-button {
-  text-transform: lowercase;
-}
-
 .title {
   font-weight: var(--font-weight-bold);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -184,6 +180,7 @@ a:focus-visible {
 }
 
 .header__theme-menu-button {
+  text-transform: lowercase;
   background: transparent;
   font-family: var(--font-family);
   font-weight: var(--font-weight-normal);
@@ -404,9 +401,6 @@ a:focus-visible {
 
   .third .section__card {
     padding-left: 10px;
-  }
-
-  .section__gallery {
   }
 
   .footer {
