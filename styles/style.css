@@ -61,6 +61,7 @@ a:focus-visible {
   grid-template-columns: auto;
   gap: var(--gap-large);
   height: 100vh;
+  min-height: 668px;
   padding: 10px;
 }
 
@@ -171,6 +172,7 @@ a:focus-visible {
   display: grid;
   padding: 0 10px;
   height: 100vh;
+  min-height: 668px;
   grid-template-rows: repeat(3, 0.32fr);
 }
 
@@ -211,6 +213,7 @@ a:focus-visible {
     max-width: 768px;
   }
   .header {
+    min-height: 1024px;
     padding: 20px;
     gap: 12.5vh;
   }
@@ -325,6 +328,7 @@ a:focus-visible {
 
   .footer {
     display: grid;
+    min-height: 1024px;
     grid-template-rows: repeat(3, 0.287fr);
     padding: 0 20px;
   }
@@ -342,6 +346,7 @@ a:focus-visible {
 
   .header {
     gap: 12.5vh;
+    min-height: 768px;
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -405,6 +410,7 @@ a:focus-visible {
 
   .footer {
     gap: 11vh;
+    min-height: 768px;
   }
   .footer_title {
     padding-top: 31vh;
