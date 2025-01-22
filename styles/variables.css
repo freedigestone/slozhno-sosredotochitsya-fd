@@ -11,13 +11,16 @@
   --padding-small: 10px;
   --padding-medium: 20px;
   --padding-large: 30px;
-  --gap-large: 36px;
+  --gap-large: 30px;
   --gap-small: 10px;
 
   /* Стили для темной схемы */
   --color-bg: #000028;
   --color-text: #f1b2ce;
+  --h1-color: #DB00FF;
   --color-bg-secondary: #FF0070;
+  --color-decor:#FF0070;
   --color-border-hover:#FF007040;
+  --bg-image: url(../images/cover-image-dark.png);
 }
 

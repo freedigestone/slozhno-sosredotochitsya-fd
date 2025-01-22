@@ -14,6 +14,9 @@
    --color-text: #f1b2ce;
    --color-bg-secondary: #FF0070;
    --color-border-hover:#FF007040;
+   --h1-color: #DB00FF;
+   --bg-image: url(../images/cover-image-dark.png);
+   --color-decor:#FF0070;
 }
 
 .theme-dark .page {
@@ -65,6 +68,16 @@ h3, h4 {
   color: var(--color-bg);
 
 }
+
+.header__theme-menu-button_active {
+  outline: 1px solid var(--color-decor);
+  pointer-events: none;
+}
+
+.header__theme-menu-button_type_light {
+  border: 1px solid var(--color-decor) transparent;
+}
+
 
 @media (width >= 768px) {
   .rec-container {
