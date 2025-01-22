@@ -24,12 +24,16 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
+.theme-light .rec-container {
+  display: none;
+}
+
 .theme-light h2 {
   color: var(--color-text);
 }
 
 .theme-light h3,
-h4 {
+.theme-light h4 {
   color: var(--color-text);
 }
 
