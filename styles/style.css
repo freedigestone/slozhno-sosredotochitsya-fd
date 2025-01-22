@@ -1,6 +1,5 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-
 h2 {
   font-family: var(--font-family);
   font-size: var(--font-size-base);
@@ -48,7 +47,7 @@ a:hover {
   border-bottom: 1px solid var(--color-text);
 }
 
-a:focus{
+a:focus {
   outline: none;
 }
 
@@ -107,7 +106,7 @@ a:focus-visible {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   text-transform: lowercase;
-  color:var(--h1-color);
+  color: var(--h1-color);
   padding-top: 37px;
   height: 32vh;
   text-shadow: 2px 2px 0 var(--color-bg-secondary);
@@ -119,13 +118,11 @@ a:focus-visible {
 
 .header__article {
   padding-top: 41px;
-  
 }
 
 .main {
   display: grid;
   padding: 10px 10px 0;
-  
 }
 
 .section {
@@ -167,7 +164,7 @@ a:focus-visible {
 }
 
 .gallery__item {
-margin:0;
+  margin: 0;
 }
 
 .gallery__image {
@@ -199,15 +196,9 @@ margin:0;
   height: 1.4em;
 }
 
-
-
-
-
 .header__theme-menu-button:hover {
   outline: 1px solid var(--color-border-hover);
 }
-
-
 
 .header__theme-menu-button:focus {
   outline: none;
@@ -302,12 +293,10 @@ margin:0;
     grid-template-rows: repeat(3, minmax(min-content, max-content));
     gap: 20px;
     padding-top: 5px;
-  
   }
 
   .gallery__item {
     min-block-size: 4.3em;
-
   }
 
   .gallery__image {
@@ -341,13 +330,11 @@ margin:0;
     display: grid;
     grid-template-rows: repeat(3, 0.287fr);
     padding: 0 20px;
-  
   }
 
   .footer_title {
-  margin: 0;
+    margin: 0;
     justify-self: center;
-   
   }
 }
 
@@ -399,8 +386,6 @@ margin:0;
     grid-row: 4;
   }
 
-
-
   .first .section__card {
     padding-left: 10px;
   }
@@ -422,11 +407,9 @@ margin:0;
   }
 
   .section__gallery {
-   
   }
 
   .footer {
-  
     gap: 11vh;
   }
   .footer_title {

@@ -1,16 +1,12 @@
-
-
 @media (prefers-color-scheme: light) {
   :root {
-    --color-bg: #FFF1F7;
-  --color-text: #000028;
-  --color-bg-secondary: #FF8DCB;
-  --color-border-hover:#32312d66;
-  --bg-image: url(../images/cover-image-light.png);
-  --h1-color: #FFC2E6;
-  --color-decor:#000028;
-  
-
+    --color-bg: #fff1f7;
+    --color-text: #000028;
+    --color-bg-secondary: #ff8dcb;
+    --color-border-hover: #32312d66;
+    --bg-image: url(../images/cover-image-light.png);
+    --h1-color: #ffc2e6;
+    --color-decor: #000028;
   }
 }
 
@@ -19,23 +15,23 @@
 }
 
 h2 {
-  color:var(--color-text) ;
-  }
-  
-  h3, h4 {
-    color: var(--color-text);
-  
-  }
+  color: var(--color-text);
+}
 
-  .header__theme-menu-button {
-    border: 1px solid transparent;
-  }
+h3,
+h4 {
+  color: var(--color-text);
+}
 
-  .header__theme-menu-button_active {
-    outline: 1px solid var(--color-decor);
-    pointer-events: none;
-  }
+.header__theme-menu-button {
+  border: 1px solid transparent;
+}
 
-  .header__theme-menu-button_type_dark {
-    border: 1px solid var(--color-decor)transparent;
-  }
+.header__theme-menu-button_active {
+  outline: 1px solid var(--color-decor);
+  pointer-events: none;
+}
+
+.header__theme-menu-button_type_dark {
+  border: 1px solid var(--color-decor) transparent;
+}
