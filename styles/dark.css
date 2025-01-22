@@ -23,7 +23,7 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
-.rec-container {
+.theme-dark .rec-container {
   display: grid;
   grid-template-columns: repeat(2, min-content);
   align-items: center;
@@ -33,7 +33,7 @@
   top: 10px;
 }
 
-.rec-container::before {
+.theme-dark .rec-container::before {
   content: "Rec";
   text-transform: uppercase;
   font-family: var(--font-family);
@@ -43,7 +43,7 @@
   color: var(--color-bg-secondary);
 }
 
-.rec-container::after {
+.theme-dark .rec-container::after {
   content: "";
   width: 9px;
   height: 9px;
@@ -52,26 +52,26 @@
   box-shadow: 0px 0px 4px 2px var(--color-bg-secondary);
 }
 
-h2 {
+.theme-dark h2 {
   color: var(--color-bg-secondary);
 }
 
-h3,
+.theme-dark h3,
 h4 {
   color: var(--color-bg);
 }
 
-.header__theme-menu-button_active {
+.theme-dark .header__theme-menu-button_active {
   outline: 1px solid var(--color-decor);
   pointer-events: none;
 }
 
-.header__theme-menu-button_type_light {
+.theme-dark .header__theme-menu-button_type_light {
   border: 1px solid var(--color-decor) transparent;
 }
 
 @media (width >= 768px) {
-  .rec-container {
+  .theme-dark .rec-container {
     right: 30px;
     top: 20px;
   }

@@ -1,7 +1,17 @@
+:root.theme-light {
+  --color-bg: #fff1f7;
+  --color-text: #353430;
+  --color-bg-secondary: #ff8dcb;
+  --color-border-hover: #32312d66;
+  --bg-image: url(../images/cover-image-light.png);
+  --h1-color: #ffc2e6;
+  --color-decor: #000028;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --color-bg: #fff1f7;
-    --color-text: #000028;
+    --color-text: #353430;
     --color-bg-secondary: #ff8dcb;
     --color-border-hover: #32312d66;
     --bg-image: url(../images/cover-image-light.png);
@@ -14,24 +24,24 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
-h2 {
+.theme-light h2 {
   color: var(--color-text);
 }
 
-h3,
+.theme-light h3,
 h4 {
   color: var(--color-text);
 }
 
-.header__theme-menu-button {
+.theme-light .header__theme-menu-button {
   border: 1px solid transparent;
 }
 
-.header__theme-menu-button_active {
+.theme-light .header__theme-menu-button_active {
   outline: 1px solid var(--color-decor);
   pointer-events: none;
 }
 
-.header__theme-menu-button_type_dark {
+.theme-light .header__theme-menu-button_type_dark {
   border: 1px solid var(--color-decor) transparent;
 }
