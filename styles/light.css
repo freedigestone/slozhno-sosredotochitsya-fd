@@ -1,7 +1,7 @@
 :root.theme-light {
   --color-bg: #fff1f7;
   --color-text: #353430;
-  --h3-color:#353430;
+  --h3-color: #353430;
   --color-bg-secondary: #ff8dcb;
   --color-border-hover: #32312d66;
   --bg-image: url(../images/cover-image-light.png);
@@ -13,7 +13,7 @@
   :root {
     --color-bg: #fff1f7;
     --color-text: #353430;
-    --h3-color:#353430;
+    --h3-color: #353430;
     --color-bg-secondary: #ff8dcb;
     --color-border-hover: #32312d66;
     --bg-image: url(../images/cover-image-light.png);
@@ -29,4 +29,3 @@
 .theme-light .rec-container {
   display: none;
 }
-
