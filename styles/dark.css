@@ -11,9 +11,11 @@
   */
 
   --color-bg: #000028;
-  --color-text: #f1b2ce;
+  --color-main: #000028;
+  --color-text: #F1B2CE;
   --color-bg-secondary: #ff0070;
-  --color-border-hover: #ff007040;
+  --color-border-hover: #ff007066;
+  --h3-color:#ff0070;
   --h1-color: #db00ff;
   --bg-image: url(../images/cover-image-dark.png);
   --color-decor: #ff0070;
@@ -25,53 +27,7 @@
 
 .theme-dark .rec-container {
   display: grid;
-  grid-template-columns: repeat(2, min-content);
-  align-items: center;
-  gap: 9px;
-  position: absolute;
-  right: 20px;
-  top: 10px;
 }
 
-.theme-dark .rec-container::before {
-  content: "Rec";
-  text-transform: uppercase;
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-normal);
-  font-size: var(--font-size-base);
-  line-height: var(--line-height-base);
-  color: var(--color-bg-secondary);
-}
 
-.theme-dark .rec-container::after {
-  content: "";
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--color-bg-secondary);
-  box-shadow: 0px 0px 4px 2px var(--color-bg-secondary);
-}
 
-.theme-dark h2 {
-  color: var(--color-bg-secondary);
-}
-
-.theme-dark h3, .theme-dark h4 {
-  color: var(--color-bg);
-}
-
-.theme-dark .header__theme-menu-button_active {
-  outline: 1px solid var(--color-decor);
-  pointer-events: none;
-}
-
-.theme-dark .header__theme-menu-button_type_light {
-  border: 1px solid var(--color-decor) transparent;
-}
-
-@media (width >= 768px) {
-  .theme-dark .rec-container {
-    right: 30px;
-    top: 20px;
-  }
-}
