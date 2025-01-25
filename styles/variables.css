@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --font-family: "IBM Plex Mono", sans-serif;
+  --font-family: "IBM Plex Mono", monospace;
   --font-size-base: 18px;
   --line-height-base: 130%;
   --font-weight-normal: 400;
@@ -26,6 +26,6 @@
   --color-decor: #ff0070;
 }
 
-.theme-auto .rec-container {
+.rec-container {
   display: grid;
 }

@@ -20,6 +20,9 @@
     --h1-color: #ffc2e6;
     --color-decor: #000028;
   }
+  .rec-container {
+    display: none;
+  }
 }
 
 .theme-light .page {
